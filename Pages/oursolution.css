@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.oursolution{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/oursolution-bg.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    height:700px;
+    opacity: 0.9;
+}
+
+.oursolution h1{
+   
+    color: white;
+   font-size: 100px;
+   font-weight: bold;
+   background: -webkit-linear-gradient(#eee, #ffbbbb);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+} 
+
+
+.oursol-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment:fixed; 
+    background-image: url(../images/oursol-bg.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+ 
+    color: white;
+}
+
+.oursol1{
+    margin-left: 35%;
+    float: left;
+    height: 400px;
+    width:65%;
+    padding: 5%;
+    padding-left: 22%;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 10px 0px 0px 500px;
+}
+
+
+.oursol2{
+    margin-right: 35%;
+    float: right;
+    height: 400px;
+    width:65%;
+    padding: 8% 10%;
+    padding-right: 2%;
+    background-color: rgba(0, 0, 0, 0.918);
+    margin: 5px 0;
+    border-radius: 10px 0px 500px 0px;
+}
+
+
+
+.oursol1 h2{
+    width:100%;
+
+}
+.oursol2 h2{
+    width:80%;
+}
+
+
+@media only screen and (max-width: 880px) {
+.oursolution h1{
+   
+    color: white;
+   font-size: 45px;
+   font-weight: bold;
+   background: -webkit-linear-gradient(#eee, #ffbbbb);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+} 
+
+.oursol1{
+    margin-left: 2%;
+    float: left;
+    height: 480px;
+    width:98%;
+    padding: 5%;
+    padding-left: 12%;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 10px 0px 0px 500px;
+    font-size: 10px;
+    border-radius: 10px 0px 0px 200px;
+}
+
+
+.oursol2{
+    margin-right: 2%;
+    float: right;
+    height: 400px;
+    width:98%;
+    padding: 9% 5%;
+    font-size: 14px;
+    border-radius: 50px 0px 200px 0px;
+}
+
+    }

@@ -1,0 +1,646 @@
+
+
+
+@media only screen and (max-width: 780px) {
+
+    .top-nav{
+        background-color: #000;
+        color: azure;
+        height:105px;
+        padding:10px 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .top-nav .a1{
+        padding: 0 100px;
+        display: flex;
+     
+    }
+    
+    .top-nav .a1 i{
+        padding: 6px 10px;
+       
+    }
+    .top-nav .a2{
+        padding-left:65px;
+        font-size: 75%;
+    }
+    .top-nav .a2 a{
+        color:#ffc0cb;
+    }
+    .top-nav ul{
+        display: flex;
+    
+      width: 74%;
+    }
+    
+    .top-nav ul li img{
+        margin-right: 10px;
+        height:10px;
+        width:15px;
+    }
+    li{
+        padding: 0% 5px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 75%;
+    }
+    .dropdown-content p {
+        width:120px;
+     }
+p.rate{
+   background-color: blue;
+   color:white;
+   font-size: 10px;
+   padding: 5px 0;
+   text-align: center;
+ }
+
+.header{
+    margin-top: 102px;
+    margin-right: 71px;
+    width: 100%;
+}
+
+.navbar {
+   
+    padding: 1rem 3rem;
+}
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1rem 0;
+        margin-left: -50px;
+    }
+
+    .nav-item a{
+        
+        margin-left: -50px;
+    }
+
+    
+.nav-menu{
+
+    margin: 0rem 1rem;
+    width: 92%;
+    margin-top: 8rem;
+    border: 2px solid #b6b6b6;
+}
+    .nav-logo img{
+        height:40px;
+        width:150px;
+        margin-left:-5px;
+        margin-right: 71px;
+    }
+    .nav-search{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-top: 23px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .carousel-sec{
+        margin-top: 181px;
+    }
+
+
+    .setup h1{
+        font-size: 2rem;
+    }
+
+    .setup1{
+        flex-direction: column;
+    }
+
+    .hr-width{
+        width:-1%;
+        height:420px;
+      margin-left: 1px;
+        padding-left: 20%;
+       margin-top: 20%;
+        border-bottom: none;
+        border-top:none;
+        border-right:none;
+    }
+
+    
+
+    .width-text{
+        display: flex;
+        margin-top: 10px; 
+        animation-name: width-text;
+        animation-duration: 3s;  
+        animation-delay: 1s;
+        animation-fill-mode: both;
+    }
+  .width-text h3{
+       margin-left: 50px;
+    }
+
+    .img-circle {
+        
+        margin-left: 70px;
+    }
+.arrow{
+      /*  width: 0;
+        height: 0;
+        border-top: 24px solid blue;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;  
+        margin-left: 107px;
+        */
+        margin-bottom: -70px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 24px solid blue;
+    border-bottom: 12px solid transparent;
+    margin-left: 3px;
+      }
+   
+    @keyframes width-text {
+        from {top:-100px;}
+        to {top: 0px;}
+      }
+
+      .img-circle{
+        height: 100px;
+        padding:15px;
+       
+    }
+    
+.btn1{
+    width:150px;
+    margin: 0px 60px;
+    margin-top: 30px;
+}
+
+.about{
+    display: flex;
+   flex-direction: column;
+   padding: 10px 18px;
+}
+
+.about-us{
+    width:100%;
+  }
+
+
+
+.about-us h1{
+    font-size:40px;
+    text-align: center;
+    }
+
+    .about-us p{
+        margin-top: 10px;
+        font-size:15px;
+    }
+
+    .show{
+        animation-name: about-text;
+        animation-duration: 1s;  
+        animation-delay: 1s;
+        
+    }
+    
+    @keyframes about-text {
+        from {left: 00px;}
+        to {left: 0px;}
+      }
+    .video{
+        margin-top: 20px;
+        width:100%;  
+        margin-left:0px;
+      }
+
+      .video1{
+
+        position: relative;
+        animation-name: video-text;
+        animation-duration: 2s;  
+        animation-delay: 1s;
+        
+    }
+    
+    @keyframes video-text {
+        from {right: 0px;}
+        to {right: 0px;}
+      }
+
+      .video iframe{
+        width:100%;
+         height:100%;
+      }
+
+      .customize-jewellery h1{
+        font-size:30px;
+      }
+
+      .customize{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custo1 img{
+        height:160%;
+        width:200%;
+    }
+
+    .custo2{
+        display: flex;
+    }
+
+    .custo2 p{
+        margin:10px 15px;
+        padding: 10px 19px;
+    }
+
+    .custo3{
+        width:100%;
+    }
+
+    .custo3 h1{
+        margin-top:10px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .margin-container{
+        margin:170px 0px;
+    }
+    .margin-container h1{
+        font-size: 35px;
+    }
+
+    .image1{
+        width:100%;
+    }
+
+    .image1 img{
+        width:100%;
+        height:100%;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+    
+.title1 img{
+    width:300px;
+    height:300px;
+    margin:20px 0;
+    transition: 0.3s all ease-in-out;
+}
+
+    .title h1{
+       font-size: 20px;
+    }
+
+    .title a{
+        font-size:15px;
+    }
+
+    .image2{
+        width:100%;
+    }
+
+    .image2 img{
+        width:100%;
+        height:100%;
+        margin-left:-1px;
+    }
+
+    .card1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Empower{
+        display: flex;
+        flex-direction: column;
+        height:600px;
+       
+    }
+    
+    .Empower-text{
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .Empower-img{
+        width:100%;
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+    
+    .Empower-img img {
+        width: 70%;
+        height: 70%;
+    }
+    .container-benifit{
+        margin-left: 0px;
+    }
+
+    .card-beni{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        margin:20px 10px;
+       padding: 20px;
+        
+    }
+    .card-beni img{
+        margin: 10px 85px;
+    }
+
+    .card-beni h4{
+       
+        font-size:18px;
+       text-align: center;
+    }
+
+    .card-beni p{
+   
+        font-size:14px;
+        margin-left: 20px;
+    }
+
+    .our-Benefits h1{
+        font-size: 35px;
+    }
+
+    .model{
+        flex-direction: column;
+      width:100%;
+    }
+
+    .annouce1{
+        height:80px;
+        width:80px;
+        padding: 27px;
+        margin-bottom: 429%;
+        margin-left: 38%;
+         }
+    
+    
+             
+    .annouce2{
+        height: 80px;
+        width: 80px;
+        padding: 27px;
+        margin-left: 37%;
+        margin-bottom: 114%;      
+    }
+    
+    .annouce3{
+        height:80px;
+        width:80px;
+        padding: 27px;
+        margin-left: 38%;
+        margin-top: 190%; 
+    }
+
+    .model-box{
+       
+        padding-top: 73px;
+        width:220px;
+       height:400px;
+        margin: 20%;
+         margin-top: 80px;
+    }
+
+    .our-testimonials{
+        height:550px;
+        padding:10px 20px;
+    }
+
+    .our-testimonials-1{
+        width:100%;
+
+    }
+
+    .our-testimonials-1 h1{
+        font-size: 30px;
+      }
+
+      .our-testimonials-1 p{
+        font-size: 20px;
+    }
+    
+    .our-testimonials-main{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .our-testimonials-para{
+        width:100%;
+        height:265px;
+        
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 10px;
+        box-shadow: 0px 0px 18px rgb(149, 149, 149);
+    }
+
+    .testimonials-img img{
+         height: 80px;
+         margin-top: 10%;
+         margin-left: 64%;
+        
+    }
+
+.blog{
+    display:flex;
+    flex-direction: column;
+    margin:150px 0;
+  }
+
+  .our-blog-1{
+    width:100%;
+    height: 480px;
+    padding: 10px 20px;
+}
+
+.our-blog-2{
+    width:100%;
+    height:100%;
+    padding-left: 0;
+    margin:4px 0;
+    margin-bottom: 350px;
+}
+
+.our-blog-2 img{
+    height:300px;
+    width:100%;
+}
+
+    
+.our-blog-2 p{
+    font-size:11px; 
+    bottom:-285px;
+}
+
+.weddingbird{
+    padding: 0 14px;
+}
+
+input[type="email"]
+{
+    width:100%;
+    margin: 10px 0;
+  
+}
+
+
+.custo-order-sec{
+    flex-direction: column;
+    margin: 100px 0px;
+    padding: 0 50px;
+}
+
+.custo_order_secs{
+    position: relative;
+    animation-name: custo-order-text;
+    animation-duration: 2s;  
+    animation-delay: 0s;   
+}
+
+@keyframes custo-order-text {
+    from {bottom: 0px;}
+    to {bottom: 0px;}
+  }
+
+  /*
+.custo-order{
+    
+   margin: 10px 30px;
+}
+
+*/
+
+.custo-order h3{
+    text-align: center;
+    padding-top: 50px;
+    height:100px;
+    width:200px;
+}
+
+.icon{
+   margin:0px 95px;
+    margin-bottom: -40px;
+    margin-top: 10px;
+}
+
+.footer-con{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    width:100%;    
+    } 
+
+    .footer-2{
+       
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .custo-serv{
+        margin:0 15px;
+    }
+
+    .custo-serv h5{
+       padding:0 10px;
+       font-size: 15px;
+       text-align: center;
+    }
+
+    .custo-serv p{
+        font-size: 12px;
+        padding:0 10px;
+        text-align: center;
+    }
+
+    .footer-3{
+        width:100%;
+        padding: 0 35px;
+    }
+
+    .main-footer p{
+        font-size: 12px;
+    }
+
+
+    .main-footer p{
+        margin: 15px 10px;
+       }
+       .master-card{
+        margin: 15px 75px; 
+    }
+
+    .main-footer1{
+        flex-direction: column;
+        margin: 0 14%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 388px){
+    
+    
+    .annouce1 {
+        height: 80px;
+        width: 80px;
+        padding: 27px;
+        margin-bottom: 449%;
+    margin-left: 38%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 508px) {
+    .Empower-img img {
+        width: 100%;
+        height: 100%;
+    }
+}
