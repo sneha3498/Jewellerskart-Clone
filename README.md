@@ -1,24 +1,14 @@
 # Jewellerskart Clone
 This project is a redesign and clone of the original Jewellerskart e-commerce website, aimed at enhancing its visual appeal, user experience, and overall functionality. The goal is to deliver a modern, responsive, and user-friendly interface that helps attract and retain more customers.
 
-🔗 Live Demo: Jewellerskart Clone
+🔗 Live Demo: [Jewellerskart Clone](https://jewellerskart-clone.netlify.app/)
 
-🛠️ Technologies Used
-HTML5 – Structure and markup
-
-CSS3 – Styling and responsive layout
-
-JavaScript – Interactive functionality
 
 🚀 Features
 Clean and modern UI
-
 Responsive design for all devices
-
 Smooth navigation and interactions
-
 Product listing layout (static version)
-
 Basic shopping page flow (non-functional cart)
 
 📌 Project Purpose
